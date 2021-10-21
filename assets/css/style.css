@@ -167,6 +167,14 @@ html{
     font-size: 14px;
 }
 
+#header .mobile-menu-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-button,
 #header .search-btn {
     float: right;
     padding: 0 21px;
@@ -177,6 +185,15 @@ html{
     cursor: pointer;
 }
 
+#header .mobile-menu-button:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-button:hover i {
+    color: #000;
+}
+
+#header .menu-icon,
 #header .search-icon {
     font-size: 20px;
     color: #fff;
@@ -217,9 +234,12 @@ html{
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
@@ -244,7 +264,7 @@ html{
 }
 
 #content .member-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name {
@@ -295,7 +315,7 @@ html{
 }
 
 .place-list {
-    margin-top: 32px;
+    margin-top: 16px;
     display: inline-block;
 }
 
