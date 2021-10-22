@@ -50,9 +50,32 @@
     }
 
     .contact-form {
-        margin-top: 16px;
+        margin-top: 32px;
     }
 
+}
+
+/* Tablet + Mobile */
+@media (max-width: 1023px) {
+    #nav .subnav a {
+        padding: 4px 12px;
+    }
+
+    .contact-content .contact-info {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    .socials-list a {
+        margin: 0 8px;
+    }
 }
 
 /* Tablet */

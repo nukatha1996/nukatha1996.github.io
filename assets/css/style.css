@@ -78,11 +78,12 @@ html{
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    padding: 11px 16px;
+    padding: 16px 16px;
     display: inline-block;
     margin-top: 15px;
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -364,6 +365,15 @@ html{
     display: inline-block;
 }
 
+.contact-info p a {
+    color: #0000ee;
+    opacity: 0.9;
+}
+
+.contact-info p a:hover {
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
 }
@@ -372,6 +382,7 @@ html{
     padding: 11px;
     border: 1px solid #ccc;
     width: 100%;
+    font-size: 16px;
 }
 
 .contact-form .form-submit-btn {
@@ -380,6 +391,10 @@ html{
     border: 1px solid #000;
     float: right;
     padding: 11px 17px;
+}
+
+.contact-submit-btn {
+    font-size: 16px;
 }
 
 .map-section img {
@@ -411,6 +426,8 @@ html{
 
 #footer .copyright a {
     color: rgba(0, 0, 0, 0.6);
+    padding: 12px 0px;
+    display: inline-block;
 }
 
 /* Buy-Tickets */
